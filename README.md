@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![Audio](https://img.shields.io/badge/Audio-ALSA%20%2F%20mpg123-red)
 
-# UNO Q WebRadio (Modulino + LCD + Linux Audio)
+# UNO Q WebRadio (Modulino BUTTONS + LCD + Linux Audio)
 
 A standalone-after-launch web radio using Arduino UNO Q,
 with physical controls (buttons + LCD) and Linux audio backend.
@@ -38,8 +38,6 @@ This project focuses on a different interaction model:
 a fully hardware-based interface instead of a WebUI.
 
 ---
-
-# UNO Q WebRadio (Modulino BUTTONS + LCD + Linux Audio)
 
 This project demonstrates a complete standalone web radio system using the Arduino UNO Q.
 
