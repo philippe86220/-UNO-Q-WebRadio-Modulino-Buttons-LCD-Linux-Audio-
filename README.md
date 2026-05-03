@@ -58,7 +58,9 @@ This project uses a hybrid architecture:
 - MPU (Linux): audio, logic, state
 - App Lab: used only to start the application
 
-Once started, the system runs entirely on the UNO Q.
+Once started, the system runs entirely on the UNO Q.  
+App Lab is not part of the runtime system.  
+It is only used to deploy and start the application.  
 
 ---
 
