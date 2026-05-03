@@ -263,7 +263,7 @@ After that, it becomes fully autonomous.
 
 ## Hardware used
 - Arduino UNO Q
-- Hub USB C, Adaptateur USB C vers HDMI 4K avec PD 100W,2 USB 3.0 et USB C 5Gbps
+- Hub USB C, Adaptateur USB C vers HDMI 4K avec PD 100W, 2 USB 3.0 et USB C 5Gbps
 - Modulino buttons
 - LCD 20x4 I2C 3,3V (address 0x27) 
 - USB sound card
