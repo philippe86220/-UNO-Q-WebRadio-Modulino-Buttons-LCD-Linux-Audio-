@@ -56,78 +56,8 @@ This project uses a hybrid architecture:
 
 - MCU (Arduino): buttons + LCD
 - MPU (Linux): audio, logic, state
-- App Lab: used only to start the application
-
-Once started, the system runs entirely on the UNO Q.  
-**App Lab is not part of the runtime system.  
-It is only used to deploy and start the application.**    
-
-**This project does not yet implement full automatic startup at boot.**
 
 ---
-
-## 🚀 Semi-autonomous system
-
-This project demonstrates a semi-autonomous execution model on the UNO Q.
-
-- The system must be started once from Arduino App Lab
-- After launch, it runs entirely on the UNO Q
-- The computer can be disconnected or powered off
-- The radio continues to operate independently
-
-👉 This is referred to as:
-
-**"standalone after launch"**
-
----
-
-## 🎯 Why this is interesting
-
-This project highlights a key difference with traditional Arduino boards (AVR, ESP32):
-
-- Classic boards:
-  - run a single firmware (C/C++)
-  - limited interaction layers
-
-- UNO Q:
-  - combines MCU (C++) + Linux (Python)
-  - supports multiple interaction models
-  - allows separation between:
-    - hardware control
-    - application logic
-    - system services
-
----
-
-## 🧠 A progressive learning platform
-
-This architecture makes it possible to evolve progressively:
-
-- C++ → hardware control (buttons, LCD)
-- Python → application logic and state management
-- Shell / Linux → system services (audio, networking)
-- Web technologies (HTML, CSS, JS) → optional UI layer
-- AI / advanced features → future extensions
-
-👉 The same backend can support multiple interfaces:
-- WebUI (previous project)
-- hardware interface (this project)
-
----
-
-##  Transition from classic Arduino
-
-This project is particularly suitable for users coming from:
-
-- AVR-based boards
-- ESP32 projects
-
-who want to:
-
-- keep simple hardware control
-- while discovering more advanced system architectures
-
-👉 without abandoning the Arduino ecosystem
 
 ## Architecture
 
@@ -146,7 +76,6 @@ mpg123 + amixer
 ↓
 Audio output (USB sound card)
 ```
-
 
 ---
 
@@ -183,6 +112,8 @@ STATE = {
 ```
 RTL|50|ON
 ```
+---
+
 ### 3. radio_service.py (Linux)
 Runs as a systemd service.
 
@@ -246,21 +177,6 @@ Responsibilities:
 
 ---
 
-## Observed behavior
-
-- The system keeps running after App Lab is closed
-- The system keeps running after the computer is powered off
-- The system remains controllable via physical buttons
-
----
-
-## Important note
-This is not a fully automatic boot system.  
-The application must be started once via App Lab.  
-After that, it becomes fully autonomous.  
-
----
-
 ## Hardware used
 - Arduino UNO Q
 - Hub USB C, Adaptateur USB C vers HDMI 4K avec PD 100W, 2 USB 3.0 et USB C 5Gbps
@@ -275,11 +191,6 @@ After that, it becomes fully autonomous.
 
 ![aperçu](/docs/scrennshot.png)
 ![aperçu](/docs/screenshot1.jpg)
-
----
-
-👤 Author
-Project developed as an exploration of the UNO Q hybrid architecture (MCU + Linux).
 
 ---
 
