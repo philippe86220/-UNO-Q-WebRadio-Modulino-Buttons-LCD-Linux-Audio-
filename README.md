@@ -62,6 +62,69 @@ Once started, the system runs entirely on the UNO Q.
 
 ---
 
+## 🚀 Semi-autonomous system
+
+This project demonstrates a semi-autonomous execution model on the UNO Q.
+
+- The system must be started once from Arduino App Lab
+- After launch, it runs entirely on the UNO Q
+- The computer can be disconnected or powered off
+- The radio continues to operate independently
+
+👉 This is referred to as:
+
+**"standalone after launch"**
+
+---
+
+## 🎯 Why this is interesting
+
+This project highlights a key difference with traditional Arduino boards (AVR, ESP32):
+
+- Classic boards:
+  - run a single firmware (C/C++)
+  - limited interaction layers
+
+- UNO Q:
+  - combines MCU (C++) + Linux (Python)
+  - supports multiple interaction models
+  - allows separation between:
+    - hardware control
+    - application logic
+    - system services
+
+---
+
+## 🧠 A progressive learning platform
+
+This architecture makes it possible to evolve progressively:
+
+- C++ → hardware control (buttons, LCD)
+- Python → application logic and state management
+- Shell / Linux → system services (audio, networking)
+- Web technologies (HTML, CSS, JS) → optional UI layer
+- AI / advanced features → future extensions
+
+👉 The same backend can support multiple interfaces:
+- WebUI (previous project)
+- hardware interface (this project)
+
+---
+
+##  Transition from classic Arduino
+
+This project is particularly suitable for users coming from:
+
+- AVR-based boards
+- ESP32 projects
+
+who want to:
+
+- keep simple hardware control
+- while discovering more advanced system architectures
+
+👉 without abandoning the Arduino ecosystem
+
 ## Architecture
 
 ```
