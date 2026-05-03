@@ -1,4 +1,4 @@
-# UNO Q WebRadio (Modulino + LCD + Linux Audio)
+# UNO Q WebRadio (Modulino BUTTONS + LCD + Linux Audio)
 
 This project demonstrates a complete standalone web radio system using the Arduino UNO Q.
 
