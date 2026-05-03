@@ -160,8 +160,8 @@ Responsibilities:
 2. Start the app from App Lab (Wi-Fi)
 3. The radio starts
 4. You can:
-  - close App Lab
-  - shut down your computer
+   - close App Lab
+   - shut down your computer
     
 👉 The radio continues running
 
