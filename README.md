@@ -60,7 +60,9 @@ This project uses a hybrid architecture:
 
 Once started, the system runs entirely on the UNO Q.  
 **App Lab is not part of the runtime system.  
-It is only used to deploy and start the application.**  
+It is only used to deploy and start the application.**    
+
+**This project does not yet implement full automatic startup at boot.**
 
 ---
 
