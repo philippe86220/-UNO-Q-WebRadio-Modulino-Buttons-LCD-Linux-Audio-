@@ -272,3 +272,9 @@ After that, it becomes fully autonomous.
 
 👤 Author
 Project developed as an exploration of the UNO Q hybrid architecture (MCU + Linux).
+
+---
+
+## Acknowledgements
+
+This project was developed with the help of technical discussions and AI-assisted guidance.
