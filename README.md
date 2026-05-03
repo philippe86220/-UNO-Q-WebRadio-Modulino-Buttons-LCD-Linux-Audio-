@@ -270,6 +270,13 @@ After that, it becomes fully autonomous.
 
 ---
 
+## screenshot
+
+![aperçu](/docs/scrennshot.png)
+![aperçu](/docs/scrennshot1.png)
+
+---
+
 👤 Author
 Project developed as an exploration of the UNO Q hybrid architecture (MCU + Linux).
 
