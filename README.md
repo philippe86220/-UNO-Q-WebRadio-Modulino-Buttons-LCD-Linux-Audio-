@@ -4,6 +4,33 @@
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![Audio](https://img.shields.io/badge/Audio-ALSA%20%2F%20mpg123-red)
 
+## Introduction
+
+This project is an evolution of the following project:
+
+👉 https://github.com/philippe86220/UNO-Q--WebRadio
+
+The previous version was based on a graphical interface using the WebUI HTML brick in Arduino App Lab.
+
+This new version replaces the graphical interface with:
+
+- physical buttons (Modulino)
+- a 20x4 LCD display
+
+However, both projects share the same core architecture:
+
+- Linux audio service:
+  `/home/arduino/scripts/radio_service.py`
+- systemd service:
+  `/etc/systemd/system/radio_service.service`
+- shell scripts used to control audio playback
+
+These components are fully described in the previous project and are reused here without modification.
+
+This project focuses on a different interaction model:
+a fully hardware-based interface instead of a WebUI.
+
+---
 
 # UNO Q WebRadio (Modulino BUTTONS + LCD + Linux Audio)
 
