@@ -273,7 +273,7 @@ After that, it becomes fully autonomous.
 ## screenshot
 
 ![aperçu](/docs/scrennshot.png)
-![aperçu](/docs/screnshot1.jpg)
+![aperçu](/docs/screenshot1.jpg)
 
 ---
 
