@@ -119,21 +119,23 @@ Responsibilities:
 
 **Behavior**
 
-1.Power the UNO Q
+1. Power the UNO Q
 2. Start the app from App Lab (Wi-Fi)
 3. The radio starts
 4. You can:
-- close App Lab
-- shut down your computer
+  - close App Lab
+  - shut down your computer
+    
 👉 The radio continues running
 
 ---
 
 **Explanation**
 
-`radio_service.py` is started automatically at boot via systemd
-`main.py` is started via App Lab
-once started, everything runs locally on the UNO Q
+- `radio_service.py` is started automatically at boot via systemd
+- `main.py` is started via App Lab
+- once started, everything runs locally on the UNO Q
+- 
 👉 App Lab is only a launcher
 
 ---
