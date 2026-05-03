@@ -135,7 +135,7 @@ Responsibilities:
 - `radio_service.py` is started automatically at boot via systemd
 - `main.py` is started via App Lab
 - once started, everything runs locally on the UNO Q
-- 
+  
 👉 App Lab is only a launcher
 
 ---
