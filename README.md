@@ -167,16 +167,6 @@ Responsibilities:
 
 ---
 
-**Explanation**
-
-- `radio_service.py` is started automatically at boot via systemd
-- `main.py` is started via App Lab
-- once started, everything runs locally on the UNO Q
-  
-👉 App Lab is only a launcher
-
----
-
 ## Hardware used
 - Arduino UNO Q
 - Hub USB C, Adaptateur USB C vers HDMI 4K avec PD 100W, 2 USB 3.0 et USB C 5Gbps
