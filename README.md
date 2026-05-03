@@ -115,7 +115,7 @@ Responsibilities:
 ```
 ---
 
-## Mode 1 — Standalone after launch
+## Standalone after launch
 
 **Behavior**
 
